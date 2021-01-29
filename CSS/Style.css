@@ -1,0 +1,346 @@
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Neucha', cursive;
+*/
+
+body {
+    font-family: 'MontSerrat ExtraLight', 'Raleway','Open Sans Condensed', sans-serif;
+    background-color: white;
+    width: 100%;
+    background-size : contain;
+    height: 100%; /*comment automatiser le remplissage de la page ??????*/
+    
+    
+}
+
+/*.container {    
+    margin: 0 auto;
+    background-size : contain;
+    width: 100%;
+     
+}*/
+
+
+
+
+.header .container .navbar{
+    height: 140px;
+    width: 100%;
+    margin:auto;
+    vertical-align: top;
+    position: fixed;
+    background-color: black;
+    color: white; 
+    
+
+}
+
+.header .navbar .logo {
+    float: left;
+    
+}
+
+.header .navbar .logo ul li {
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.header .navbar .menu {
+    float: right;
+    font-size: 2.2em;
+    color: white;
+    padding : 10px 10px;
+    
+}
+
+.header .navbar .menu ul li {
+    display: inline-block;
+    margin : 0 25px;
+}
+
+.header .navbar .menu ul li a {
+    color: white;
+    text-decoration : none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.main {
+    left: 30px;
+    right: 30px;
+    display: block;
+    position: static;
+    padding: 10px 10px;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+.home .description {
+    display: block;
+    position: static;
+    padding: 10px 10px;
+    margin-top: 200px;
+    text-align: center;
+    height: 550px;
+    font-size : 22px;
+    
+    
+}
+
+.description a {    
+    font-weight : 200;
+    color : purple;
+}
+
+
+.main .Communication,
+.main .Audiovisuel,
+.main .education {
+    display:inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 33%;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.main .Scientifique .s1,
+.main .Scientifique .s2,
+.main .Scientifique .s3 {
+    display: inline-block;
+    width: 33%;
+}
+
+.s2 {
+    vertical-align: top;
+}
+
+.main .DUT .d1,
+.main .DUT .d2,
+.main .DUT .d3 {
+    display: inline-block;
+    width: 33%;
+}
+ .d1,
+ .d3 {
+     vertical-align: bottom;
+ }
+.d2 {
+    vertical-align: top;
+}
+
+.main .Eicar .c1,
+.main .Eicar .c2,
+.main .Eicar .c3 {
+    display: inline-block;
+    width: 33%;
+}
+
+.main .Eicar {
+    margin-top: 120px;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+}
+
+.c1,
+.c3 {
+    vertical-align: bottom;
+}
+
+.main .Poker .p1,
+.main .Poker .p2,
+.main .Poker .p3 {
+    display: inline-block;
+    width: 33%;
+}
+
+.p1 {
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.main .Gaming .g1,
+.main .Gaming .g2,
+.main .Gaming .g3 {
+    display: inline-block;
+    width: 33%;
+}
+
+.main .Divers .x1,
+.main .Divers .x2,
+.main .Divers .x3 {
+    display: inline-block;
+    width: 33%;
+}
+
+.x1,
+.x2,
+.x3 {
+    vertical-align: top;
+}
+
+.main .Gaming,
+.main .Divers {
+    padding: 50px 50px;
+}
+
+.main .Divers .x3 a{
+        font-weight : 200;
+        color : purple;
+    }
+}
+/*.main .Scientifique,
+.main .DUT,
+.main .Eicar {
+    
+    text-align: center;
+    vertical-align: top;
+    width: 33%;
+    margin-top: 30px;
+    font-size: 22px;
+}*/
+.main .bigtext {
+    color: rgb(8, 8, 8);
+    size: 28px;
+}
+.footer {
+    margin-top: 50px;
+    bottom: o;
+    position: static;
+    left : 0;
+    right : 0; 
+    background-color: black;
+    background-size: contain;
+    color : white;
+    height: auto;
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+    
+/* Pour aggrandir mon block autour de mes inscriptions
+    padding: 25px 30px;
+*/
+
+.footer .footer-left,
+.footer .footer-center1,
+.footer .footer-center2,
+.footer .footer-right{
+    display:inline-block;
+    vertical-align: center;
+}
+
+.footer .footer-left {
+    width: 25%
+}
+
+.footer .footer-center1 {
+    width: 25%
+}
+
+.footer .footer-center2 {
+    width: 24%
+}
+
+.footer .footer-right {
+    width: 25%
+}
+
+.footer .footer-left i,
+.footer .footer-center1 i,
+.footer .footer-center2 i,
+.footer .footer-right i {
+    
+    cursor: pointer;
+    color: white;
+}
+
+.footer .footer-center1 a {
+    cursor: pointer;
+    color: white;
+}
+
+
+/*.contact {
+    
+
+}
+
+.contact ul li {
+    
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}*/
+
+
+  
+  .form-style {
+    margin:10px auto;
+    width: 400px;
+    padding: 20px 12px 10px 20px;
+    
+    
+  }
+  
+  .form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+  }
+  
+  .form-style label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+  }
+  
+  .form-style .required{
+    color:red;
+  }
+  .form-style input[type=submit], .form-style input[type=reset]{
+    background: #4eb5f1;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+  }
+  .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+    background: #4ef1c8;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+  }
+  .form-style .field-textarea{
+    height: 200px;
+  }
+  .form-style input[type=text], 
+  .form-style input[type=email],
+  textarea{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    outline: none;  
+  }
+  .form-style .long{
+    width: 100%;
+  }
+  .form-style input[type=text]:focus, 
+  .form-style input[type=email]:focus,
+  .form-style textarea:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+  }
+  .error{
+    color: #D8000C;
+    background-color: #FFBABA;
+  }
